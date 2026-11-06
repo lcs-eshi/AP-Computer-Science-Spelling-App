@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E2B6063309E703A00E50709 /* AP Computer Science Spelling AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B6062309E703A00E50709 /* AP Computer Science Spelling AppApp.swift */; };
+		5E2B6065309E703A00E50709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2B6064309E703A00E50709 /* Assets.xcassets */; };
+		5E2B6068309E703A00E50709 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B6067309E703A00E50709 /* House.swift */; };
+		5E2B606B309E703A00E50709 /* HouseListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B606A309E703A00E50709 /* HouseListViewModel.swift */; };
+		5E2B606E309E703A00E50709 /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B606D309E703A00E50709 /* HousesListView.swift */; };
+		5E2B6070309E703A00E50709 /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2B606F309E703A00E50709 /* HouseItemView.swift */; };
+		5E2B6072309E703B00E50709 /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = 5E2B6071309E703B00E50709 /* RELEASE.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E2B605F309E703A00E50709 /* AP Computer Science Spelling App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AP Computer Science Spelling App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2B6062309E703A00E50709 /* AP Computer Science Spelling AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AP Computer Science Spelling AppApp.swift"; sourceTree = "<group>"; };
+		5E2B6064309E703A00E50709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E2B6067309E703A00E50709 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		5E2B606A309E703A00E50709 /* HouseListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseListViewModel.swift; sourceTree = "<group>"; };
+		5E2B606D309E703A00E50709 /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
+		5E2B606F309E703A00E50709 /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
+		5E2B6071309E703B00E50709 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E2B605C309E703A00E50709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2B6056309E703A00E50709 = {
+			isa = PBXGroup;
+			children = (
+				5E2B6061309E703A00E50709 /* AP Computer Science Spelling App */,
+				5E2B6060309E703A00E50709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E2B6060309E703A00E50709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B605F309E703A00E50709 /* AP Computer Science Spelling App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E2B6061309E703A00E50709 /* AP Computer Science Spelling App */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B6062309E703A00E50709 /* AP Computer Science Spelling AppApp.swift */,
+				5E2B6064309E703A00E50709 /* Assets.xcassets */,
+				5E2B6071309E703B00E50709 /* RELEASE.md */,
+				5E2B6066309E703A00E50709 /* Model */,
+				5E2B6069309E703A00E50709 /* ViewModels */,
+				5E2B606C309E703A00E50709 /* Views */,
+			);
+			path = "AP Computer Science Spelling App";
+			sourceTree = "<group>";
+		};
+		5E2B6066309E703A00E50709 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B6067309E703A00E50709 /* House.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E2B6069309E703A00E50709 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B606A309E703A00E50709 /* HouseListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E2B606C309E703A00E50709 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E2B606D309E703A00E50709 /* HousesListView.swift */,
+				5E2B606F309E703A00E50709 /* HouseItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E2B605E309E703A00E50709 /* AP Computer Science Spelling App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E2B6073309E703B00E50709 /* Build configuration list for PBXNativeTarget "AP Computer Science Spelling App" */;
+			buildPhases = (
+				5E2B605B309E703A00E50709 /* Sources */,
+				5E2B605C309E703A00E50709 /* Frameworks */,
+				5E2B605D309E703A00E50709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AP Computer Science Spelling App";
+			packageProductDependencies = (
+			);
+			productName = "AP Computer Science Spelling App";
+			productReference = 5E2B605F309E703A00E50709 /* AP Computer Science Spelling App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E2B6057309E703A00E50709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					5E2B605E309E703A00E50709 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5E2B605A309E703A00E50709 /* Build configuration list for PBXProject "AP Computer Science Spelling App" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E2B6056309E703A00E50709;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5E2B6060309E703A00E50709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E2B605E309E703A00E50709 /* AP Computer Science Spelling App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E2B605D309E703A00E50709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2B6072309E703B00E50709 /* RELEASE.md in Resources */,
+				5E2B6065309E703A00E50709 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2B605B309E703A00E50709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2B6070309E703A00E50709 /* HouseItemView.swift in Sources */,
+				5E2B6068309E703A00E50709 /* House.swift in Sources */,
+				5E2B606E309E703A00E50709 /* HousesListView.swift in Sources */,
+				5E2B606B309E703A00E50709 /* HouseListViewModel.swift in Sources */,
+				5E2B6063309E703A00E50709 /* AP Computer Science Spelling AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E2B6058309E703A00E50709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5E2B6059309E703A00E50709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		5E2B6074309E703B00E50709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UG443984D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.lcs.AP Computer Science Spelling App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E2B6075309E703B00E50709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 4UG443984D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.on.lcs.AP Computer Science Spelling App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E2B605A309E703A00E50709 /* Build configuration list for PBXProject "AP Computer Science Spelling App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2B6058309E703A00E50709 /* Debug */,
+				5E2B6059309E703A00E50709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E2B6073309E703B00E50709 /* Build configuration list for PBXNativeTarget "AP Computer Science Spelling App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2B6074309E703B00E50709 /* Debug */,
+				5E2B6075309E703B00E50709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E2B6057309E703A00E50709 /* Project object */;
+}
